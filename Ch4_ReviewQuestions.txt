@@ -1,0 +1,92 @@
+Ch4 Review Questions
+====================
+  1
+-----
+What is the output of the following code segment?
+Program code. In the code, the words in the variable names are merged.
+```cs
+int a = 3, b = 4;
+if(a == b)
+	Write("X");
+	WriteLine("Y");
+```
+	a. X
+
+    b. Y
+
+    c. XY
+
+    d. nothing
+
+  2
+-----
+What is the output of the following code segment?
+Program code. In the code, the words in the variable names are merged.
+```cs
+int a=3, b=4;
+if(a < b)
+{
+	Write("Y");
+	WriteLine("Z");
+}
+```
+    a. Y
+
+    b. Z
+
+    c. YZ
+
+    d. nothing
+
+  3
+-----
+What is the output of the following code segment?
+Program code. In the code, the words in the variable names are merged.
+```cs
+int a = 3, b = 4;
+if(a > b)
+	Write("Up");
+else
+	WriteLine("Down");
+```
+    a. Up
+
+    b. Down
+
+    c. UpDown
+
+    d. nothing
+
+  4
+-----
+If the following code segment compiles correctly, what do you know about the variable x?
+Program code. In the code, the words in the variable names are merged.
+```cs
+if(x) WriteLine("OK");
+```
+    a. x is an integer variable.
+
+    b. x is a Boolean variable.
+
+    c. x is greater than 0.
+
+    d. none of these
+
+  5
+-----
+What is the output of the following code segment?
+Program code. In the code, the words in the variable names are merged.
+```cs
+int c = 6, d = 12;
+if(c > d);
+	Write("Green");
+	WriteLine("Yellow");
+```
+    a. Green
+
+    b. Yellow
+
+    c. GreenYellow
+
+    d. nothing
+
