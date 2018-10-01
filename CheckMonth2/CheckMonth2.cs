@@ -31,7 +31,7 @@ namespace CheckMonth2
             Write("Enter month (#):");
 			inMonth = int.Parse(ReadLine());
 			Write("Enter day (#):");
-			inMonth = int.Parse(ReadLine());
+            inDay = int.Parse(ReadLine());
 			
 			if (inMonth >= 1 && inMonth <= 12)
 			{
@@ -39,7 +39,7 @@ namespace CheckMonth2
 				//lots of days ):
 				if (inDay >= 1)
 				{
-					switch(inDay)
+					switch(inMonth)
 					{
 						//31 days
 						case 1:

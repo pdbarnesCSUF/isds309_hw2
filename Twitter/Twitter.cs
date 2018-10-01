@@ -28,7 +28,7 @@ namespace Twitter
             string msg;
 			Write("Message:");
 			msg = ReadLine();
-			if (msg.length > 140)
+			if (msg.Length > 140)
 			{
 				WriteLine("Message TOO LONG");
 			}

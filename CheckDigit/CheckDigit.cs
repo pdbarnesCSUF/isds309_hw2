@@ -43,12 +43,16 @@ namespace CheckDigit
 			{
 				first3 = inAcct / 10;
 				last = inAcct % 10;
-				checkValue = first3 / 7;
+				checkValue = first3 % 7;
 				if (checkValue == last)
 					WriteLine("Valid");
 				else
 					WriteLine("Invalid");
-			}
+                //DEBUG
+                //WriteLine("first3:" + first3);
+                //WriteLine("last:" + last);
+                //WriteLine("checkValue:" + checkValue);
+            }
 			else //not 4 digits
 				WriteLine("Invalid");
 

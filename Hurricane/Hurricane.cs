@@ -32,7 +32,7 @@ namespace Hurricane
 
 			int windspeed = 0;
 			Write("Windspeed mph:");
-			windspeed = int.parse(ReadLine());
+			windspeed = int.Parse(ReadLine());
 			
 			if (windspeed >= 157)
 				WriteLine("Category 5");

@@ -38,16 +38,16 @@ namespace GuessingGame
             WriteLine("hw2#7 - Patrick Barnes");
             WriteLine("GuessingGame");
 			
-			int const min = 1;  //inclusive
-			int const max = 11; //exclusive
+			const int MIN = 1;  //inclusive
+			const int MAX = 11; //exclusive
             int randomNumber = 0;
 			int guess = 0;
 			
 			Random ranNumberGenerator = new Random();
 												//(inclusive,	exclusive)
-			randomNumber = ranNumberGenerator.Next(min, 		max);
+			randomNumber = ranNumberGenerator.Next(MIN, 		MAX);
 			//WriteLine("DEBUG:randomNumber={0}",randomNumber); //DEBUG
-			Write("Guess a number ({0}-{1}):",min , max-1);
+			Write("Guess a number ({0}-{1}):",MIN , MAX-1);
 			guess = int.Parse(ReadLine());
 			if (guess == randomNumber)
 				WriteLine("Correct!");
